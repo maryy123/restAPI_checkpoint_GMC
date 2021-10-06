@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+/* contac list */
+.list .card{
+  background:#FFEDD3;
+}
+
+.list .box{
+  background:black !important;
+}
+
+.list{
+  margin-top: 4%;
+}
+
+/* footer */
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-weight: bold;
+}
+
+html{
+  position: relative;
+  
+}

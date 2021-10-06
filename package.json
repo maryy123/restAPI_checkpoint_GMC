@@ -1,0 +1,29 @@
+{
+  "name": "restapi_checkpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "back": "nodemon server",
+    "front": "cd client && npm start",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "mongoDB",
+    "nodeJs"
+  ],
+  "author": "myriam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.2",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
